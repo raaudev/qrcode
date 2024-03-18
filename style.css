@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color: azure;
+}
+
+.container{
+    position: relative;
+    width:295px;
+    height:500px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 6px 20px rgba(0,0,0,.4);
+    overflow:hidden;
+}
+
+.container__menor{
+    position: relative;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    background: #91C8E4;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+img{
+    margin: 20px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    margin: 20px;
+    padding: 9px;
+    text-align: center;
+    font-size: 15px;
+}
+
+p{
+  margin: 30px;
+  padding: 9px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.copy{
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+}
